@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New';
 }
-
+/* 
 p {
-    text-align: right;
+    text-align: center;
 }
 
 .h1 {
@@ -14,5 +15,179 @@ p {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline dotted;
+}
+
+#pone{
+    font-family: arial;
+}
+
+#ptwo{
+    font-family: courier;
+}
+
+
+#one{
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+#two{
+    font-size: 100px;
+}
+ 
+#three{
+    font-size: 50px ;
+} */
+
+/* 
+h1{
+    text-align: center;
+}
+
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+} */
+
+/* 
+#inner{
+    height: 100px;
+    background-color: blueviolet;
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Calibri';
+    
+    border-radius: 20px;
+    /* border: 3px;
+    border-style: solid;
+    border-color: burlywood; */
+    /* border: 5px solid blue;
+    padding: 250px;
+    margin: 200px;
+}
+
+h1{
+    width: 400px;
+    height: 50px;
+    background-color: blueviolet;
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    padding: 250;
+}
+
+
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+    background-color: aquamarine;
+    border: 1px solid rgba(83, 76, 76, 0.027);
+    cursor: pointer;
+    font-family: arial;
+    border-radius: 50%;
+} */
+/* 
+
+div{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin: 100px 500px 100px  ;
+}
+ */
+/* 
+
+.main{
+    width: 300px;
+    height: 700px;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 100px;
+    border-radius: 20px;
+    
+}
+.red, .yellow, .green{
+    margin: 20px auto;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+}
+.yellow{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.green{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 0 auto;
+    border-radius: 50%;
+} */
+
+
+body{
+    margin: 100spx auto;
+}
+
+
+.main {
+    width: 300px;
+    height: 700px;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+
+.red, .yellow, .green {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto; /* Gap between circles */
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+    color: green;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: orange;
+    color: Red;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.green {
+    background-color: green;
+    color: orange;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 100px;
+    font-weight: bold;
 }
